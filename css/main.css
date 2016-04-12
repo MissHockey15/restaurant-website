@@ -155,7 +155,22 @@ div {
   text-align: left;
 }
 
-.section {
+section {
 	background-color: white;
 	color: black;
+}
+
+
+.chef-icon {
+  display: block;
+  margin: auto;
+  max-width: 12em;
+}
+
+.map {
+  width:100%;
+}
+
+div h3, p {
+  text-align: center;
 }
