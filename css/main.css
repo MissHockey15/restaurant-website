@@ -144,6 +144,10 @@ div {
   margin: auto;
 }
 
+article h2 {
+  color: black;
+}
+
 
 .food-icon {
   display: block;
@@ -151,15 +155,24 @@ div {
   max-width: 12em;
 }
 
-.section h2, p {
+.section h2 {
   text-align: left;
+  padding-left: 1rem;
+}
+
+.section p {
+  text-align: left;
+  padding-left: .5rem;
 }
 
 section {
-	background-color: white;
-	color: black;
+  background-color: white;
+  color: black;
 }
 
+#chefs {
+  overflow: hidden;
+}
 
 .chef-icon {
   display: block;
@@ -167,10 +180,111 @@ section {
   max-width: 12em;
 }
 
-.map {
-  width:100%;
+section h2 {
+  text-align: left;
+  padding-left: 1rem;
+  margin-top: 0;
 }
 
 div h3, p {
   text-align: center;
+}
+
+
+footer {
+  height: 105px;
+  background-color: #555;
+  clear:both;
+}
+
+small {
+  color: #f2f2f2;
+  text-align: left;
+}
+
+
+
+@media only screen and (min-width: 25em) {
+
+
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+  }
+
+  .link-card:nth-child(1n) {
+    width: 50%;
+    float: left;
+    display: block;
+  }
+
+  .link-card:nth-child(2n) {
+    width: 50%;
+    float: right;
+    display: block;
+  }
+
+  .chef-group:nth-child(2) {
+    width: 50%;
+    float: left;
+    display: block;
+  }
+
+  .chef-group:nth-child(3) {
+    width: 50%;
+    float: left;
+    display: block;
+  }
+
+  .chef-group:last-child {
+    clear:both;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+
+  .link-card:nth-child(1n) {
+    width: 25%;
+    float: left;
+    display: block;
+  }
+
+  .link-card:nth-child(2n) {
+    width: 25%;
+    float: right;
+    display: block;
+  }
+
+  article .content {
+    font-size: .75rem;
+  }
+
+  .chef-group:nth-child(2) {
+    width: 33%;
+    float: left;
+  }
+
+  .chef-group:nth-child(3){
+    width: 33%;
+    float: left;
+  }
+
+  .chef-group:last-child {
+    width: 33%;
+    float: left;
+    clear: none;
+  }
+
 }
