@@ -315,6 +315,30 @@ small {
     clear: none;
   }
 
+  .nav {
+    display: block;
+    background-color: #555;
+    text-align: center;
+  }
+
+  .nav-label {
+    display: none;
+  }
+
+  .nav li {
+    display: inline-block;
+  }
+
+  .nav a {
+    background-color: #555;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .nav a:hover {
+    background-color: black;
+    color: white;
+
 }
 
 @media only screen and (min-width: 90em) {
