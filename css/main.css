@@ -44,6 +44,10 @@ body {
   display: none;
 }
 
+hover .nav {
+  color: black;
+}
+
 a {
   display: block;
   text-decoration: none;
@@ -239,7 +243,7 @@ small {
 
   .link-card:nth-child(2n) {
     width: 50%;
-    float: right;
+    float: left;
     display: block;
   }
 
@@ -277,7 +281,7 @@ small {
 
   .link-card:nth-child(2n) {
     width: 25%;
-    float: right;
+    float: left;
     display: block;
   }
 
@@ -301,4 +305,11 @@ small {
     clear: none;
   }
 
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+    line-height: 1.7;
 }
